@@ -2,10 +2,10 @@
 
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-purple)
+![ML](https://img.shields.io/badge/Machine%20Learning-YOLOv8-purple)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-orange)
 
-An academic deep learning project that detects **chest pain and fainting episodes in real time** using a custom-trained YOLOv8 object detection model — enabling faster emergency response through visual AI monitoring.
+An academic **machine learning** project that detects **chest pain and fainting episodes in real time** using a custom-trained YOLOv8 object detection model — enabling faster emergency response through visual AI monitoring.
 
 > ⚠️ **Disclaimer:** This tool is intended for academic purposes only and is not a substitute for professional medical advice or emergency services.
 
@@ -45,7 +45,7 @@ Custom PyTorch modules integrated into YOLOv8:
 |---|---|
 | Language | Python |
 | Detection Model | YOLOv8 (Ultralytics) |
-| Deep Learning | PyTorch |
+| ML Framework | PyTorch |
 | Custom Modules | RepConv, CBAM, GhostConv |
 | Frontend | HTML / CSS |
 | Database | SQL |
@@ -56,8 +56,8 @@ Custom PyTorch modules integrated into YOLOv8:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Priyapoluka/real-time-chest-pain-fainting-detection.git
-cd real-time-chest-pain-fainting-detection
+git clone https://github.com/Priyapoluka/chest-pain-detection-system.git
+cd chest-pain-detection-system
 
 # Install dependencies
 pip install -r requirements.txt
@@ -72,3 +72,36 @@ python app.py
 ---
 
 ## 📁 Project Structure
+
+```
+├── data.yaml          # Dataset configuration
+├── train.py           # Model training script
+├── conv_modules.py    # Custom PyTorch conv blocks
+├── requirements.txt   # Dependencies
+├── static/            # CSS and assets
+├── templates/         # HTML files
+└── app.py             # Main application (real-time detection)
+```
+
+---
+
+## 🛣️ Roadmap
+
+- [x] Custom convolution modules (CBAM, RepConv, GhostConv)
+- [x] YOLOv8 training pipeline
+- [ ] Improve detection accuracy
+- [ ] Real-time video stream integration
+- [ ] Alert system for detected events
+- [ ] Deploy as web application
+
+---
+
+## 👩‍💻 Author
+
+**Priyapoluka** — Academic Project
+
+---
+
+## 📄 License
+
+This project is for academic use only.
