@@ -1,13 +1,13 @@
 # 🫀 Real-Time Chest Pain & Fainting Detection System
 
-![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
+![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![ML](https://img.shields.io/badge/Machine%20Learning-YOLOv8-purple)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-orange)
 
 An academic **machine learning** project that detects **chest pain and fainting episodes in real time** using a custom-trained YOLOv8 object detection model — enabling faster emergency response through visual AI monitoring.
 
-> ⚠️ **Disclaimer:** This tool is intended for academic purposes only and is not a substitute for professional medical advice or emergency services.
+> ⚠️ **Disclaimer:** This tool is intended for educational and portfolio purposes only and is not a substitute for professional medical advice or emergency services.
 
 ---
 
@@ -34,7 +34,6 @@ Custom PyTorch modules integrated into YOLOv8:
 - 🎯 Real-time chest pain & fainting detection from live video
 - 🧩 Custom attention mechanisms (CBAM) for improved accuracy
 - ⚡ Lightweight inference using GhostConv modules
-- 🖥️ User interface prototype
 - 🗄️ SQL-based data logging
 
 ---
@@ -47,7 +46,6 @@ Custom PyTorch modules integrated into YOLOv8:
 | Detection Model | YOLOv8 (Ultralytics) |
 | ML Framework | PyTorch |
 | Custom Modules | RepConv, CBAM, GhostConv |
-| Frontend | HTML / CSS |
 | Database | SQL |
 
 ---
@@ -64,9 +62,6 @@ pip install -r requirements.txt
 
 # Train the model
 python train.py
-
-# Run real-time detection
-python app.py
 ```
 
 ---
@@ -77,10 +72,7 @@ python app.py
 ├── data.yaml          # Dataset configuration
 ├── train.py           # Model training script
 ├── conv_modules.py    # Custom PyTorch conv blocks
-├── requirements.txt   # Dependencies
-├── static/            # CSS and assets
-├── templates/         # HTML files
-└── app.py             # Main application (real-time detection)
+└── requirements.txt   # Dependencies
 ```
 
 ---
@@ -92,16 +84,18 @@ python app.py
 - [ ] Improve detection accuracy
 - [ ] Real-time video stream integration
 - [ ] Alert system for detected events
+- [ ] Build web interface (HTML/CSS)
 - [ ] Deploy as web application
 
 ---
 
 ## 👩‍💻 Author
 
-**Priyapoluka** — Academic Project
+**Priyapoluka** — B.Tech Graduate
+📧 your-yagnapriya2409@gmail.com
 
 ---
 
 ## 📄 License
 
-This project is for academic use only.
+This project is for educational and portfolio purposes.
