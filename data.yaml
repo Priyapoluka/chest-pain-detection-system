@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 1
+names: ['fall']
+
+roboflow:
+  workspace: jack603-naver-com
+  project: test-fy6a7
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jack603-naver-com/test-fy6a7/dataset/1
