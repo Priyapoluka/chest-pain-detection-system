@@ -138,8 +138,8 @@ This project uses a fall detection dataset from Roboflow:
 ## 👩‍💻 Author
 
 **Priyapoluka** — B.Tech Graduate
-📧 your-email@gmail.com
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)
+📧 your-yagnapriya2409@gmail.com
+
 
 ---
 
